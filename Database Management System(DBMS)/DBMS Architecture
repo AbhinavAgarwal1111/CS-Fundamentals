@@ -1,0 +1,20 @@
+DBMS Architecture
+
+A Database store a lot of critical information to access data quickly and securely. Hence it is important to select a correct Architecture for efficient data management.
+
+Types of DBMS Architecture:
+1- Tier Architecture:
+In One-Tier Architecture the database is directly available to the user, the user can directly sit on the DBMS and use it i.e.; the client, server, 
+and the Database are all present on the same machine. For Example- To learn SQL we set up an SQL server and the database on the local system.\
+This enables us to directly interact with the relational database and execute operations. 
+
+Two-tier architecture: 
+The two-tier architecture is similar to a basic client-server model. The application at the client end directly communicates with the database at the server side. 
+APIs like ODBC and JDBC are used for this interaction. The server side is responsible for providing query processing and transaction management functionalities.
+On the client side, the user interfaces and application programs are run.
+The application on the client side establishes a connection with the server side in order to communicate with the DBMS. 
+
+Three Tier architecture: 
+In this type, there is another layer between the client and the server. The client does not directly communicate with the server.
+Instead, it interacts with an application server which further communicates with the database system and then the query processing and transaction management takes place.
+This intermediate layer acts as a medium for the exchange of partially processed data between server and client. 
